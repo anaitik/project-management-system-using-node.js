@@ -1,0 +1,31 @@
+product management system
+
+created using angular.js for frontend and node.js in backend and mongodb for database.
+
+
+postman collection: https://api.postman.com/collections/27141885-87a2712e-e388-4574-a179-c98c0b0006d4?access_key=PMAT-01GZP3F1GY3FQ9QHWTDWAYEZA5
+
+
+how to run:
+
+first start backend:
+1. cd backend
+
+2. npm install
+
+3. node index.js
+
+this will start the server 
+
+then start my-project i.e front end
+
+1. cd my-project
+
+2. npm install
+
+3. npm install bootstrap
+
+4. ng serve 
+
+
+
