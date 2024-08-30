@@ -12,7 +12,7 @@ source:
 # Runtime settings
 runtime:
   type: Node.js
-  version: 18
+  version: 16
 
 # Health check settings (optional)
 healthCheck:
