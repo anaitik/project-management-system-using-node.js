@@ -1,0 +1,31 @@
+version: 1.0
+
+# The source directory should be relative to the repository root.
+source:
+  repository: https://github.com/anaitik/project-management-system-using-node.js
+  branch: master
+  sourceDirectory: backend
+
+# Build settings (no Docker, so omit this section)
+# runtime is Node.js
+
+# Runtime settings
+runtime:
+  type: Node.js
+  version: 18
+
+# Health check settings (optional)
+healthCheck:
+  path: /
+  intervalSeconds: 30
+  timeoutSeconds: 5
+  healthyThreshold: 2
+  unhealthyThreshold: 2
+
+# Configuration for environment variables (if any)
+environmentVariables:
+  NODE_ENV: production
+
+# Deployment settings
+deployment:
+  deploymentType: Automatic
